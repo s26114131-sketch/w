@@ -145,7 +145,7 @@
                     <span>PLAYER: <strong class="text-pink-400">DEV_HERO#2026</strong></span>
                 </div>
                 <div>
-                    <span>QUEST PROGRESS: <strong class="text-yellow-400">2 / 16 (12.5%)</strong></span>
+                    <span>QUEST PROGRESS: <strong class="text-yellow-400">3 / 16 (18.75%)</strong></span>
                 </div>
             </div>
 
@@ -169,11 +169,11 @@
             <!-- Level Progress Bar -->
             <div class="w-full max-w-md mt-6">
                 <div class="flex justify-between text-xs text-gray-400 font-mono mb-1">
-                    <span>LEVEL 2 EXP</span>
-                    <span>12.5% COMPLETE</span>
+                    <span>LEVEL 3 EXP</span>
+                    <span>18.75% COMPLETE</span>
                 </div>
                 <div class="w-full h-3 bg-gray-900/80 rounded-full border border-cyan-500/30 p-0.5 overflow-hidden">
-                    <div class="h-full bg-gradient-to-r from-cyan-400 to-pink-500 rounded-full w-[12.5%] transition-all duration-1000 shadow-[0_0_10px_#00f3ff]"></div>
+                    <div class="h-full bg-gradient-to-r from-cyan-400 to-pink-500 rounded-full w-[18.75%] transition-all duration-1000 shadow-[0_0_10px_#00f3ff]"></div>
                 </div>
             </div>
         </header>
@@ -229,8 +229,7 @@
                     </div>
                 </a>
 
-                <!-- Locked Buttons Generator: Week 3 to 16 -->
-                <!-- Week 3 -->
+                <!-- Week 3 - Locked -->
                 <div class="glass-card-locked rounded-xl p-5 flex flex-col justify-between h-40 select-none">
                     <div class="flex justify-between items-start">
                         <span class="cyber-badge bg-gray-800 text-gray-400 font-bold px-3 py-1 text-xs">WEEK 03</span>
@@ -243,18 +242,26 @@
                     <div class="text-xs text-gray-600 font-mono">RESTRICTED AREA</div>
                 </div>
 
-                <!-- Week 4 -->
-                <div class="glass-card-locked rounded-xl p-5 flex flex-col justify-between h-40 select-none">
+                <!-- Week 4 - Unlocked (悄悄話) -->
+                <a href="w4/index.html" class="glass-card-unlocked rounded-xl p-5 relative overflow-hidden group flex flex-col justify-between h-40">
                     <div class="flex justify-between items-start">
-                        <span class="cyber-badge bg-gray-800 text-gray-400 font-bold px-3 py-1 text-xs">WEEK 04</span>
-                        <span class="text-red-400 text-xs font-mono">🔒 LOCKED</span>
+                        <span class="cyber-badge bg-purple-500 text-white font-extrabold px-3 py-1 text-xs tracking-wider">
+                            WEEK 04
+                        </span>
+                        <span class="text-green-400 text-xs font-mono flex items-center gap-1">
+                            <i class="fa-solid fa-lock-open"></i> UNLOCKED
+                        </span>
                     </div>
                     <div>
-                        <h3 class="text-base font-bold text-gray-400">Week 4 - 尚未解鎖 🔒</h3>
-                        <p class="text-xs text-gray-600 mt-1">未知任務等級</p>
+                        <h3 class="text-lg font-bold text-white group-hover:text-purple-300 transition-colors">
+                            Week 4 - 悄悄話
+                        </h3>
+                        <p class="text-xs text-gray-400 mt-1">互動式私密留言板與訊息傳送器</p>
                     </div>
-                    <div class="text-xs text-gray-600 font-mono">RESTRICTED AREA</div>
-                </div>
+                    <div class="flex justify-end items-center text-purple-400 text-xs font-mono group-hover:translate-x-1 transition-transform">
+                        <span>LAUNCH MISSION</span> <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </div>
+                </a>
 
                 <!-- Week 5 -->
                 <div class="glass-card-locked rounded-xl p-5 flex flex-col justify-between h-40 select-none">
